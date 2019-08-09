@@ -2,8 +2,9 @@
 
 #shot-chart {
     width: 100%;
-    margin: auto;
     margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /********SHOTCHART COURT STYLES****** */
@@ -17,7 +18,6 @@
         margin-top: -15%;
     }
 }
-
 @media (min-width: 55em) {
     #shot-chart-container {
         margin-top: -10%;
@@ -60,8 +60,7 @@ svg rect {
     fill: none;
 }
 
-svg line {
-    stroke: black;
+svg line { stroke: black;
     fill: none;
 }
 
@@ -104,8 +103,7 @@ path.shot {
     background: #006886;
     color: #fff;
     border-radius: 2px;
-    pointer-events: none;
-}
+    pointer-events: none;}
 
 /* Creates a small triangle extender for the tooltip */
 .d3-tip:after {
